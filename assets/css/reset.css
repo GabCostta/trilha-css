@@ -1,0 +1,22 @@
+/* Importação da fonte Raleway */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+/* Configurações globais */
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/*
+
+A importação da fonte Raleway permanece no início, e as configurações globais são ajustadas. 
+    Em vez de usar * diretamente, estamos especificando body para a propriedade font-family e usando a regra *,
+    *::before, *::after para definir o box-sizing para todos os elementos, 
+    incluindo pseudo-elementos (::before e ::after). Essa abordagem é uma prática comum para evitar possíveis
+     conflitos e garantir uma aplicação mais precisa das regras globais.
+
+*/
